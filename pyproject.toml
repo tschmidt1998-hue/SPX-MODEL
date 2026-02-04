@@ -1,0 +1,20 @@
+[project]
+name = "quant-system"
+version = "0.1.0"
+description = "Full-stack quantitative research and trading system"
+requires-python = ">=3.10"
+dependencies = [
+    "polygon-api-client",
+    "ib_insync",
+    "statsmodels",
+    "streamlit",
+    "plotly",
+    "pandas",
+    "numpy",
+    "scipy"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
